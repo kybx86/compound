@@ -1,0 +1,6 @@
+
+.DS_Store
+compensation_prop/node_modules/*
+yarn.lock
+compensation_prop/build/*
+yarn-error.log
