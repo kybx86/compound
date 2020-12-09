@@ -46,12 +46,19 @@ async function interact() {
 		totalCompOwed += effectedAddresses[add] * BigInt(1e18) / COMP_VALUE;
 	}
 
+	let total = 0;
 	for(let add in compOwed) {
-		compOwed[add] = compOwed[add].toString(16);
+		let decimalValue = Number(compOwed[add])/1e18;
+		compOwed[add] = String(decimalValue);
+		total += decimalValue;
 	}
 
-	fs.writeFileSync('generateAddressBalances/addressBalances.json', JSON.stringify(compOwed));
-	console.log('Address balances succesfully written to generateAddressBalances/addressBalances.json')
+	let content = {};
+	content.addresses = compOwed;
+	content.total = String(total);
+	console.log(totalOwed + ' and other value is ' + total);
+	fs.writeFileSync('generateAddressBalances/addressBalancesDecimal.json', JSON.stringify(content));
+	console.log('Address balances succesfully written to generateAddressBalances/addressBalancesDecimal.json')
 	process.exit();
 }
 
