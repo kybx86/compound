@@ -56,7 +56,6 @@ async function interact() {
 	let content = {};
 	content.addresses = compOwed;
 	content.total = String(total);
-	console.log(totalOwed + ' and other value is ' + total);
 	fs.writeFileSync('generateAddressBalances/addressBalancesDecimal.json', JSON.stringify(content));
 	console.log('Address balances succesfully written to generateAddressBalances/addressBalancesDecimal.json')
 	process.exit();
