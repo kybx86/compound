@@ -1,7 +1,5 @@
-
-
 **Background**  
-This proposal seeks to compensate users affected by the [unexpected increase](https://www.comp.xyz/t/dai-liquidation-event/642) in the DAI price to $1.30 on Coinbase Pro on November 26th, 2020. Referencing the DAI liquidations  [spreadsheet](https://docs.google.com/spreadsheets/d/1ozVGA7mwn-xFQb1oAKsNczMRL-Dj9JgG_0UXH2IQ1s8/edit#gid=0)  published by  [@rleshner](https://www.comp.xyz/u/rleshner), a total of 85,220,406.43 DAI was repaid on 11/26/20. Applying the 8% liquidation penalty, this proposal would pay out a total of 6,817,632.51 DAI from the 16.4 million DAI in the market [reserve](https://compound.finance/markets/DAI).
+This proposal seeks to compensate users affected by the [unexpected increase](https://www.comp.xyz/t/dai-liquidation-event/642) in the DAI price to $1.30 on Coinbase Pro on November 26th, 2020. A total of 85,222,475 DAI was repaid on 11/26/20. Applying the 8% liquidation penalty, this proposal would pay out a total of 6,817,798 DAI from the 16.4 million DAI in the market [reserve](https://compound.finance/markets/DAI).
 
 Thank you to the Compound community and investors for the weeks of feedback, iteration and discussions that have helped craft this proposal.
 
